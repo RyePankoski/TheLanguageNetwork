@@ -7,3 +7,7 @@ We pick two random nodes in the graph, then begin searching through the nodes. T
 
 A complete graph. I made sure that color is actually representative of its 10 gene vector. 
 ![Screenshot_2025-02-16_022040](https://github.com/user-attachments/assets/a6462d47-bacd-466e-bd44-2bcad4431f86)
+
+Here is another graph, and the alogirthm is searching for its target using the genetic heuristic to make decisions about where to look. This version doesn't quite work yet. 
+![image](https://github.com/user-attachments/assets/f632e8f4-13d6-40d9-950b-41962085c18a)
+
