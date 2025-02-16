@@ -1,4 +1,4 @@
-This simulation creates a graph of randomly placed nodes. Each node has a set of genetic that take the form of a vector of length 10, each index of which can contain any value bewteen -1000, and 1000. 
+This simulation creates a graph of randomly placed nodes. Each node has a set of genetic data that take the form of a vector of length 10, each index of which can contain any value bewteen -1000, and 1000. 
 When a new node is born, is inherets its parent's genetic vector. Each index is marked with a flag. If the flag is true, that index is postively biased, ie we add some amount to it, otherwise we subtract from it.
 Then, we add a random value to each index between -3 to 3, to simulate the genes evolving. Each node also has a family name which is a string of five chars that are assigned when the node is born. We use the gene vector and buckets to 
 make the family name resist changing.
